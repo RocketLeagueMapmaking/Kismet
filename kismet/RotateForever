@@ -1,0 +1,219 @@
+Begin Object Class=SeqEvent_LevelLoaded Name=SeqEvent_LevelLoaded_5
+   bClientSideOnly=True
+   MaxWidth=207
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_0')),DrawY=-6118,OverrideDelta=14)
+   OutputLinks(1)=(DrawY=-6097,OverrideDelta=35)
+   OutputLinks(2)=(DrawY=-6076,OverrideDelta=56)
+   ObjInstanceVersion=3
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=2440
+   ObjPosY=-6187
+   DrawWidth=172
+   Name="SeqEvent_LevelLoaded_5"
+   ObjectArchetype=SeqEvent_LevelLoaded'Engine.Default__SeqEvent_LevelLoaded'
+End Object
+Begin Object Class=InterpData Name=InterpData_0
+   Begin Object Class=InterpGroup Name=InterpGroup_0
+      Begin Object Class=InterpTrackMove Name=InterpTrackMove_0
+         PosTrack=(Points=(,(InVal=4.000000,OutVal=(X=-0.012695,Y=0.012207,Z=0.000763))))
+         EulerTrack=(Points=(,(InVal=4.000000,OutVal=(X=0.000000,Y=0.000000,Z=360.000000))))
+         LookupTrack=(Points=(,(Time=4.000000)))
+         bShowTranslationOnCurveEd=False
+         bShowRotationOnCurveEd=True
+         MoveFrame=IMF_RelativeToInitial
+         Name="InterpTrackMove_0"
+         ObjectArchetype=InterpTrackMove'Engine.Default__InterpTrackMove'
+      End Object
+      Begin Object Class=InterpTrackAnimControl Name=InterpTrackAnimControl_0
+         Name="InterpTrackAnimControl_0"
+         ObjectArchetype=InterpTrackAnimControl'Engine.Default__InterpTrackAnimControl'
+      End Object
+      InterpTracks(0)=InterpTrackMove'InterpTrackMove_0'
+      GroupName="Rotating_Item"
+      GroupColor=(B=216,G=0,R=102,A=255)
+      Name="InterpGroup_0"
+      ObjectArchetype=InterpGroup'Engine.Default__InterpGroup'
+   End Object
+   Begin Object Class=InterpCurveEdSetup Name=InterpCurveEdSetup_0
+      Name="InterpCurveEdSetup_0"
+      ObjectArchetype=InterpCurveEdSetup'Engine.Default__InterpCurveEdSetup'
+   End Object
+   InterpLength=4.000000
+   InterpGroups(0)=InterpGroup'InterpGroup_0'
+   SelectedFilter=InterpFilter'Engine.Default__InterpData:FilterAll'
+   EdSectionEnd=0.000000
+   VarName="Rotate360"
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=2676
+   ObjPosY=-5957
+   DrawWidth=32
+   DrawHeight=32
+   Name="InterpData_0"
+   ObjectArchetype=InterpData'Engine.Default__InterpData'
+End Object
+Begin Object Class=SeqAct_Interp Name=SeqAct_Interp_0
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_0
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_0
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=-36201.828125,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_0"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_0
+         Name="InterpTrackInstAnimControl_0"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_0'
+      Name="InterpGroupInst_0"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_1
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_1
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=-28927.832031,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_1"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_1
+         Name="InterpTrackInstAnimControl_1"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_1'
+      Name="InterpGroupInst_1"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_2
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_2
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=-21243.833984,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_2"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_2
+         Name="InterpTrackInstAnimControl_2"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_3'
+      Name="InterpGroupInst_2"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_3
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_3
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=-13871.837891,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_3"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_3
+         Name="InterpTrackInstAnimControl_3"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_9'
+      Name="InterpGroupInst_3"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_4
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_4
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=29366.158203,Y=0.000002,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_4"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_4
+         Name="InterpTrackInstAnimControl_4"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_5'
+      Name="InterpGroupInst_4"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_5
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_5
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=15958.159180,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_5"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_5
+         Name="InterpTrackInstAnimControl_5"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_7'
+      Name="InterpGroupInst_5"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_6
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_6
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=6758.159668,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_6"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_6
+         Name="InterpTrackInstAnimControl_6"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_6'
+      Name="InterpGroupInst_6"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_7
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_7
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=36465.160156,Y=0.000000,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_7"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_7
+         Name="InterpTrackInstAnimControl_7"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_8'
+      Name="InterpGroupInst_7"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_8
+      Begin Object Class=InterpTrackInstMove Name=InterpTrackInstMove_8
+         InitialTM=(XPlane=(W=0.000000,X=-1.000000,Y=-0.000000,Z=0.000000),YPlane=(W=0.000000,X=0.000000,Y=-1.000000,Z=0.000000),ZPlane=(W=0.000000,X=0.000000,Y=0.000000,Z=1.000000),WPlane=(W=1.000000,X=-7679.838867,Y=0.000001,Z=1736.305176))
+         InitialQuat=(X=0.000000,Y=0.000000,Z=1.000000,W=-0.000000)
+         Name="InterpTrackInstMove_8"
+         ObjectArchetype=InterpTrackInstMove'Engine.Default__InterpTrackInstMove'
+      End Object
+      Begin Object Class=InterpTrackInstAnimControl Name=InterpTrackInstAnimControl_8
+         Name="InterpTrackInstAnimControl_8"
+         ObjectArchetype=InterpTrackInstAnimControl'Engine.Default__InterpTrackInstAnimControl'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_4'
+      Name="InterpGroupInst_8"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   PlayRate=0.500000
+   bLooping=True
+   InputLinks(0)=(DrawY=-6118,OverrideDelta=15)
+   InputLinks(1)=(DrawY=-6096,OverrideDelta=37)
+   InputLinks(2)=(DrawY=-6074,OverrideDelta=59)
+   InputLinks(3)=(DrawY=-6052,OverrideDelta=81)
+   InputLinks(4)=(DrawY=-6030,OverrideDelta=103)
+   OutputLinks(0)=(DrawY=-6102,OverrideDelta=31)
+   OutputLinks(1)=(DrawY=-6046,OverrideDelta=87)
+   VariableLinks(0)=(LinkedVariables=(InterpData'InterpData_0'),DrawX=2713,OverrideDelta=22)
+   VariableLinks(1)=(ExpectedType=Class'Engine.SeqVar_Object',LinkDesc="Rotating_Item",MinVars=0,DrawX=2776,OverrideDelta=69)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=2676
+   ObjPosY=-6156
+   DrawWidth=154
+   DrawHeight=173
+   Name="SeqAct_Interp_0"
+   ObjectArchetype=SeqAct_Interp'Engine.Default__SeqAct_Interp'
+End Object
