@@ -1,0 +1,46 @@
+Begin Object Class=SeqEvent_CarSpawned_TA Name=SeqEvent_CarSpawned_TA_0
+   MaxWidth=97
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_AttachFX_TA'SeqAct_AttachFX_TA_0')),DrawY=-6638,OverrideDelta=11)
+   VariableLinks(0)=(LinkedVariables=(SeqVar_Object'SeqVar_Object_0'),DrawX=-5072,OverrideDelta=16)
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-5120
+   ObjPosY=-6704
+   DrawWidth=68
+   DrawHeight=128
+   Name="SeqEvent_CarSpawned_TA_0"
+   ObjectArchetype=SeqEvent_CarSpawned_TA'tagame.Default__SeqEvent_CarSpawned_TA'
+End Object
+Begin Object Class=SeqVar_Object Name=SeqVar_Object_0
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-5104
+   ObjPosY=-6556
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Object_0"
+   ObjectArchetype=SeqVar_Object'Engine.Default__SeqVar_Object'
+End Object
+Begin Object Class=SeqAct_AttachFX_TA Name=SeqAct_AttachFX_TA_0
+   Begin Object Class=ParticleSystemComponent Name=ParticleSystemComponent_4 ObjName=ParticleSystemComponent_4
+      Template=ParticleSystem'Park_Rainy_P.fx_water.FX.Rain_PS'
+      ReplacementPrimitive=None
+      Name="ParticleSystemComponent_4"
+      ObjectArchetype=ParticleSystemComponent'Engine.Default__ParticleSystemComponent'
+   End Object
+   PSC=ParticleSystemComponent'ParticleSystemComponent_4'
+   InputLinks(0)=(DrawY=-6639,OverrideDelta=19)
+   InputLinks(1)=(DrawY=-6607,OverrideDelta=51)
+   OutputLinks(0)=(DrawY=-6644,OverrideDelta=14)
+   OutputLinks(1)=(DrawY=-6623,OverrideDelta=35)
+   OutputLinks(2)=(DrawY=-6602,OverrideDelta=56)
+   VariableLinks(0)=(LinkedVariables=(SeqVar_Object'SeqVar_Object_0'),DrawX=-4937,OverrideDelta=40)
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-4999
+   ObjPosY=-6681
+   DrawWidth=124
+   DrawHeight=109
+   Name="SeqAct_AttachFX_TA_0"
+   ObjectArchetype=SeqAct_AttachFX_TA'tagame.Default__SeqAct_AttachFX_TA'
+End Object
