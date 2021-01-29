@@ -1,0 +1,203 @@
+Begin Object Class=SeqAct_Interp Name=SeqAct_Interp_0
+   Begin Object Class=InterpGroupInst Name=InterpGroupInst_5
+      Begin Object Class=InterpTrackInstVectorMaterialParam Name=InterpTrackInstVectorMaterialParam_5
+         Begin Object Class=MaterialInstanceConstant Name=MaterialInstanceConstant_30
+            VectorParameterValues(0)=(ParameterName="PaintColor")
+            Parent=Material'wheel_hamsterwheel_holographic_SF.wheel_hamsterwheel_holographic.Wheel_HW_Hamster_SE_MAT'
+            Name="MaterialInstanceConstant_30"
+            ObjectArchetype=MaterialInstanceConstant'Engine.Default__MaterialInstanceConstant'
+         End Object
+         Begin Object Class=MaterialInstanceConstant Name=MaterialInstanceConstant_29
+            VectorParameterValues(0)=(ParameterName="PaintColor")
+            Parent=Material'wheel_hamsterwheel_holographic_SF.wheel_hamsterwheel_holographic.Wheel_HW_Hamster_SE_MAT'
+            Name="MaterialInstanceConstant_29"
+            ObjectArchetype=MaterialInstanceConstant'Engine.Default__MaterialInstanceConstant'
+         End Object
+         Begin Object Class=MaterialInstanceConstant Name=MaterialInstanceConstant_28
+            VectorParameterValues(0)=(ParameterName="PaintColor")
+            Parent=Material'wheel_hamsterwheel_holographic_SF.wheel_hamsterwheel_holographic.Wheel_HW_Hamster_SE_MAT'
+            Name="MaterialInstanceConstant_28"
+            ObjectArchetype=MaterialInstanceConstant'Engine.Default__MaterialInstanceConstant'
+         End Object
+         Begin Object Class=MaterialInstanceConstant Name=MaterialInstanceConstant_27
+            VectorParameterValues(0)=(ParameterName="PaintColor")
+            Parent=Material'wheel_hamsterwheel_holographic_SF.wheel_hamsterwheel_holographic.Wheel_HW_Hamster_SE_MAT'
+            Name="MaterialInstanceConstant_27"
+            ObjectArchetype=MaterialInstanceConstant'Engine.Default__MaterialInstanceConstant'
+         End Object
+         InstancedTrack=InterpTrackVectorMaterialParam'InterpTrackVectorMaterialParam_0'
+         Name="InterpTrackInstVectorMaterialParam_5"
+         ObjectArchetype=InterpTrackInstVectorMaterialParam'Engine.Default__InterpTrackInstVectorMaterialParam'
+      End Object
+      Group=InterpGroup'InterpGroup_0'
+      GroupActor=InterpActor'InterpActor_2'
+      Name="InterpGroupInst_5"
+      ObjectArchetype=InterpGroupInst'Engine.Default__InterpGroupInst'
+   End Object
+   PlayRate=0.000000
+   bForceStartPos=True
+   InputLinks(0)=(DrawY=-9042,OverrideDelta=15)
+   InputLinks(1)=(DrawY=-9020,OverrideDelta=37)
+   InputLinks(2)=(DrawY=-8998,OverrideDelta=59)
+   InputLinks(3)=(DrawY=-8976,OverrideDelta=81)
+   InputLinks(4)=(DrawY=-8954,OverrideDelta=103)
+   OutputLinks(0)=(DrawY=-9142,bHidden=True,OverrideDelta=59)
+   OutputLinks(1)=(DrawY=-9114,bHidden=True,OverrideDelta=87)
+   VariableLinks(0)=(LinkedVariables=(InterpData'InterpData_6'),DrawX=-2057,OverrideDelta=16)
+   VariableLinks(1)=(ExpectedType=Class'Engine.SeqVar_Object',LinkedVariables=(SeqVar_Object'SeqVar_Object_48'),LinkDesc="NewGroup",MinVars=0,DrawX=-1992,OverrideDelta=63)
+   VariableLinks(2)=(ExpectedType=Class'Engine.SeqVar_Float',LinkedVariables=(SeqVar_Named'SeqVar_Named_14'),LinkDesc="ForceStartPosition",PropertyName="ForceStartPosition",MinVars=0,DrawX=-1901,OverrideDelta=145)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2088
+   ObjPosY=-9080
+   DrawWidth=246
+   DrawHeight=173
+   Name="SeqAct_Interp_0"
+   ObjectArchetype=SeqAct_Interp'Engine.Default__SeqAct_Interp'
+End Object
+Begin Object Class=InterpData Name=InterpData_6
+   Begin Object Class=InterpCurveEdSetup Name=InterpCurveEdSetup_0
+      Tabs(0)=(Curves=((CurveObject=InterpTrackVectorMaterialParam'InterpTrackVectorMaterialParam_0',CurveColor=(B=216,G=99,R=0,A=255),CurveName="NewGroup_Vector Material Param")),ViewStartInput=-0.672921,ViewEndInput=11.727063,ViewStartOutput=-5.932717,ViewEndOutput=13.530482)
+      Name="InterpCurveEdSetup_0"
+      ObjectArchetype=InterpCurveEdSetup'Engine.Default__InterpCurveEdSetup'
+   End Object
+   Begin Object Class=InterpGroup Name=InterpGroup_0
+      Begin Object Class=InterpTrackVectorMaterialParam Name=InterpTrackVectorMaterialParam_0
+         Materials(0)=(TargetMaterial=Material'wheel_hamsterwheel_holographic_SF.wheel_hamsterwheel_holographic.Wheel_HW_Hamster_SE_MAT',AffectedMaterialRefs=((Primitive=StaticMeshComponent'StaticMeshComponent_16'),(Primitive=StaticMeshComponent'StaticMeshComponent_16',MaterialIndex=1),(Primitive=StaticMeshComponent'StaticMeshComponent_16',MaterialIndex=2),(Primitive=StaticMeshComponent'StaticMeshComponent_16',MaterialIndex=3)))
+         ParamName="PaintColor"
+         VectorTrack=(Points=((ArriveTangent=(X=0.000000,Y=0.000000,Z=12.802827),LeaveTangent=(X=0.000000,Y=0.000000,Z=12.802827)),(InVal=0.099000,OutVal=(X=0.000000,Y=0.000000,Z=1.000000)),(InVal=0.100000,OutVal=(X=0.000000,Y=0.100000,Z=0.000000)),(InVal=0.199000,OutVal=(X=0.000000,Y=0.100000,Z=1.000000)),(InVal=0.200000,OutVal=(X=0.000000,Y=0.200000,Z=0.000000)),(InVal=0.299000,OutVal=(X=0.000000,Y=0.200000,Z=1.000000)),(InVal=0.300000,OutVal=(X=0.000000,Y=0.300000,Z=0.000000)),(InVal=0.399000,OutVal=(X=0.000000,Y=0.300000,Z=1.000000)),(InVal=0.400000,OutVal=(X=0.000000,Y=0.400000,Z=0.000000)),(InVal=0.499000,OutVal=(X=0.000000,Y=0.400000,Z=1.000000)),(InVal=0.500000,OutVal=(X=0.000000,Y=0.500000,Z=0.000000)),(InVal=0.599000,OutVal=(X=0.000000,Y=0.500000,Z=1.000000)),(InVal=0.600000,OutVal=(X=0.000000,Y=0.600000,Z=0.000000)),(InVal=0.699000,OutVal=(X=0.000000,Y=0.600000,Z=1.000000)),(InVal=0.700000,OutVal=(X=0.000000,Y=0.700000,Z=0.000000)),(InVal=0.799000,OutVal=(X=0.000000,Y=0.700000,Z=1.000000)),(InVal=0.800000,OutVal=(X=0.000000,Y=0.800000,Z=0.000000)),(InVal=0.899000,OutVal=(X=0.000000,Y=0.800000,Z=1.000000)),(InVal=0.900000,OutVal=(X=0.000000,Y=0.900000,Z=0.000000)),(InVal=0.999000,OutVal=(X=0.000000,Y=0.900000,Z=1.000000)),(InVal=1.000000,OutVal=(X=0.000000,Y=1.000000,Z=0.000000)),(InVal=1.001000,OutVal=(X=0.100000,Y=0.000000,Z=0.000000)),(InVal=1.099000,OutVal=(X=0.100000,Y=0.000000,Z=1.000000)),(InVal=1.100000,OutVal=(X=0.100000,Y=0.100000,Z=0.000000)),(InVal=1.199000,OutVal=(X=0.100000,Y=0.100000,Z=1.000000)),(InVal=1.200000,OutVal=(X=0.100000,Y=0.200000,Z=0.000000)),(InVal=1.299000,OutVal=(X=0.100000,Y=0.200000,Z=1.000000)),(InVal=1.300000,OutVal=(X=0.100000,Y=0.300000,Z=0.000000)),(InVal=1.399000,OutVal=(X=0.100000,Y=0.300000,Z=1.000000)),(InVal=1.400000,OutVal=(X=0.100000,Y=0.400000,Z=0.000000)),(InVal=1.499000,OutVal=(X=0.100000,Y=0.400000,Z=1.000000)),(InVal=1.500000,OutVal=(X=0.100000,Y=0.500000,Z=0.000000)),(InVal=1.599000,OutVal=(X=0.100000,Y=0.500000,Z=1.000000)),(InVal=1.600000,OutVal=(X=0.100000,Y=0.600000,Z=0.000000)),(InVal=1.699000,OutVal=(X=0.100000,Y=0.600000,Z=1.000000)),(InVal=1.700000,OutVal=(X=0.100000,Y=0.700000,Z=0.000000)),(InVal=1.799000,OutVal=(X=0.100000,Y=0.700000,Z=1.000000)),(InVal=1.800000,OutVal=(X=0.100000,Y=0.800000,Z=0.000000)),(InVal=1.899000,OutVal=(X=0.100000,Y=0.800000,Z=1.000000)),(InVal=1.900000,OutVal=(X=0.100000,Y=0.900000,Z=0.000000)),(InVal=1.999000,OutVal=(X=0.100000,Y=0.900000,Z=1.000000)),(InVal=2.000000,OutVal=(X=0.100000,Y=1.000000,Z=0.000000)),(InVal=2.001000,OutVal=(X=0.200000,Y=0.000000,Z=0.000000)),(InVal=2.099000,OutVal=(X=0.200000,Y=0.000000,Z=1.000000)),(InVal=2.100000,OutVal=(X=0.200000,Y=0.100000,Z=0.000000)),(InVal=2.199000,OutVal=(X=0.200000,Y=0.100000,Z=1.000000)),(InVal=2.200000,OutVal=(X=0.200000,Y=0.200000,Z=0.000000)),(InVal=2.299000,OutVal=(X=0.200000,Y=0.200000,Z=1.000000)),(InVal=2.300000,OutVal=(X=0.200000,Y=0.300000,Z=0.000000)),(InVal=2.399000,OutVal=(X=0.200000,Y=0.300000,Z=1.000000)),(InVal=2.400000,OutVal=(X=0.200000,Y=0.400000,Z=0.000000)),(InVal=2.499000,OutVal=(X=0.200000,Y=0.400000,Z=1.000000)),(InVal=2.500000,OutVal=(X=0.200000,Y=0.500000,Z=0.000000)),(InVal=2.599000,OutVal=(X=0.200000,Y=0.500000,Z=1.000000)),(InVal=2.600000,OutVal=(X=0.200000,Y=0.600000,Z=0.000000)),(InVal=2.699000,OutVal=(X=0.200000,Y=0.600000,Z=1.000000)),(InVal=2.700000,OutVal=(X=0.200000,Y=0.700000,Z=0.000000)),(InVal=2.799000,OutVal=(X=0.200000,Y=0.700000,Z=1.000000)),(InVal=2.800000,OutVal=(X=0.200000,Y=0.800000,Z=0.000000)),(InVal=2.899000,OutVal=(X=0.200000,Y=0.800000,Z=1.000000)),(InVal=2.900000,OutVal=(X=0.200000,Y=0.900000,Z=0.000000)),(InVal=2.999000,OutVal=(X=0.200000,Y=0.900000,Z=1.000000)),(InVal=3.000000,OutVal=(X=0.200000,Y=1.000000,Z=0.000000)),(InVal=3.001000,OutVal=(X=0.300000,Y=0.000000,Z=0.000000)),(InVal=3.099000,OutVal=(X=0.300000,Y=0.000000,Z=1.000000)),(InVal=3.100000,OutVal=(X=0.300000,Y=0.100000,Z=0.000000)),(InVal=3.199000,OutVal=(X=0.300000,Y=0.100000,Z=1.000000)),(InVal=3.200000,OutVal=(X=0.300000,Y=0.200000,Z=0.000000)),(InVal=3.299000,OutVal=(X=0.300000,Y=0.200000,Z=1.000000)),(InVal=3.300000,OutVal=(X=0.300000,Y=0.300000,Z=0.000000)),(InVal=3.399000,OutVal=(X=0.300000,Y=0.300000,Z=1.000000)),(InVal=3.400000,OutVal=(X=0.300000,Y=0.400000,Z=0.000000)),(InVal=3.499000,OutVal=(X=0.300000,Y=0.400000,Z=1.000000)),(InVal=3.500000,OutVal=(X=0.300000,Y=0.500000,Z=0.000000)),(InVal=3.599000,OutVal=(X=0.300000,Y=0.500000,Z=1.000000)),(InVal=3.600000,OutVal=(X=0.300000,Y=0.600000,Z=0.000000)),(InVal=3.699000,OutVal=(X=0.300000,Y=0.600000,Z=1.000000)),(InVal=3.700000,OutVal=(X=0.300000,Y=0.700000,Z=0.000000)),(InVal=3.799000,OutVal=(X=0.300000,Y=0.700000,Z=1.000000)),(InVal=3.800000,OutVal=(X=0.300000,Y=0.800000,Z=0.000000)),(InVal=3.899000,OutVal=(X=0.300000,Y=0.800000,Z=1.000000)),(InVal=3.900000,OutVal=(X=0.300000,Y=0.900000,Z=0.000000)),(InVal=3.999000,OutVal=(X=0.300000,Y=0.900000,Z=1.000000)),(InVal=4.000000,OutVal=(X=0.300000,Y=1.000000,Z=0.000000)),(InVal=4.001000,OutVal=(X=0.400000,Y=0.000000,Z=0.000000)),(InVal=4.099000,OutVal=(X=0.400000,Y=0.000000,Z=1.000000)),(InVal=4.100000,OutVal=(X=0.400000,Y=0.100000,Z=0.000000)),(InVal=4.199000,OutVal=(X=0.400000,Y=0.100000,Z=1.000000)),(InVal=4.200000,OutVal=(X=0.400000,Y=0.200000,Z=0.000000)),(InVal=4.299000,OutVal=(X=0.400000,Y=0.200000,Z=1.000000)),(InVal=4.300000,OutVal=(X=0.400000,Y=0.300000,Z=0.000000)),(InVal=4.399000,OutVal=(X=0.400000,Y=0.300000,Z=1.000000)),(InVal=4.400000,OutVal=(X=0.400000,Y=0.400000,Z=0.000000)),(InVal=4.499000,OutVal=(X=0.400000,Y=0.400000,Z=1.000000)),(InVal=4.500000,OutVal=(X=0.400000,Y=0.500000,Z=0.000000)),(InVal=4.599000,OutVal=(X=0.400000,Y=0.500000,Z=1.000000)),(InVal=4.600000,OutVal=(X=0.400000,Y=0.600000,Z=0.000000)),(InVal=4.699000,OutVal=(X=0.400000,Y=0.600000,Z=1.000000)),(InVal=4.700000,OutVal=(X=0.400000,Y=0.700000,Z=0.000000)),(InVal=4.799000,OutVal=(X=0.400000,Y=0.700000,Z=1.000000)),(InVal=4.800000,OutVal=(X=0.400000,Y=0.800000,Z=0.000000)),(InVal=4.899000,OutVal=(X=0.400000,Y=0.800000,Z=1.000000)),(InVal=4.900000,OutVal=(X=0.400000,Y=0.900000,Z=0.000000)),(InVal=4.999000,OutVal=(X=0.400000,Y=0.900000,Z=1.000000)),(InVal=5.000000,OutVal=(X=0.400000,Y=1.000000,Z=0.000000)),(InVal=5.001000,OutVal=(X=0.500000,Y=0.000000,Z=0.000000)),(InVal=5.099000,OutVal=(X=0.500000,Y=0.000000,Z=1.000000)),(InVal=5.100000,OutVal=(X=0.500000,Y=0.100000,Z=0.000000)),(InVal=5.199000,OutVal=(X=0.500000,Y=0.100000,Z=1.000000)),(InVal=5.200000,OutVal=(X=0.500000,Y=0.200000,Z=0.000000)),(InVal=5.299000,OutVal=(X=0.500000,Y=0.200000,Z=1.000000)),(InVal=5.300000,OutVal=(X=0.500000,Y=0.300000,Z=0.000000)),(InVal=5.399000,OutVal=(X=0.500000,Y=0.300000,Z=1.000000)),(InVal=5.400000,OutVal=(X=0.500000,Y=0.400000,Z=0.000000)),(InVal=5.499000,OutVal=(X=0.500000,Y=0.400000,Z=1.000000)),(InVal=5.500000,OutVal=(X=0.500000,Y=0.500000,Z=0.000000)),(InVal=5.599000,OutVal=(X=0.500000,Y=0.500000,Z=1.000000)),(InVal=5.600000,OutVal=(X=0.500000,Y=0.600000,Z=0.000000)),(InVal=5.699000,OutVal=(X=0.500000,Y=0.600000,Z=1.000000)),(InVal=5.700000,OutVal=(X=0.500000,Y=0.700000,Z=0.000000)),(InVal=5.799000,OutVal=(X=0.500000,Y=0.700000,Z=1.000000)),(InVal=5.800000,OutVal=(X=0.500000,Y=0.800000,Z=0.000000)),(InVal=5.899000,OutVal=(X=0.500000,Y=0.800000,Z=1.000000)),(InVal=5.900000,OutVal=(X=0.500000,Y=0.900000,Z=0.000000)),(InVal=5.999000,OutVal=(X=0.500000,Y=0.900000,Z=1.000000)),(InVal=6.000000,OutVal=(X=0.500000,Y=1.000000,Z=0.000000)),(InVal=6.001000,OutVal=(X=0.600000,Y=0.000000,Z=0.000000)),(InVal=6.099000,OutVal=(X=0.600000,Y=0.000000,Z=1.000000)),(InVal=6.100000,OutVal=(X=0.600000,Y=0.100000,Z=0.000000)),(InVal=6.199000,OutVal=(X=0.600000,Y=0.100000,Z=1.000000)),(InVal=6.200000,OutVal=(X=0.600000,Y=0.200000,Z=0.000000)),(InVal=6.299000,OutVal=(X=0.600000,Y=0.200000,Z=1.000000)),(InVal=6.300000,OutVal=(X=0.600000,Y=0.300000,Z=0.000000)),(InVal=6.399000,OutVal=(X=0.600000,Y=0.300000,Z=1.000000)),(InVal=6.400000,OutVal=(X=0.600000,Y=0.400000,Z=0.000000)),(InVal=6.499000,OutVal=(X=0.600000,Y=0.400000,Z=1.000000)),(InVal=6.500000,OutVal=(X=0.600000,Y=0.500000,Z=0.000000)),(InVal=6.599000,OutVal=(X=0.600000,Y=0.500000,Z=1.000000)),(InVal=6.600000,OutVal=(X=0.600000,Y=0.600000,Z=0.000000)),(InVal=6.699000,OutVal=(X=0.600000,Y=0.600000,Z=1.000000)),(InVal=6.700000,OutVal=(X=0.600000,Y=0.700000,Z=0.000000)),(InVal=6.794000,OutVal=(X=0.600000,Y=0.700000,Z=1.000000)),(InVal=6.800000,OutVal=(X=0.600000,Y=0.800000,Z=0.000000)),(InVal=6.899000,OutVal=(X=0.600000,Y=0.800000,Z=1.000000)),(InVal=6.900000,OutVal=(X=0.600000,Y=0.900000,Z=0.000000)),(InVal=6.999000,OutVal=(X=0.600000,Y=0.900000,Z=1.000000)),(InVal=7.000000,OutVal=(X=0.600000,Y=1.000000,Z=0.000000)),(InVal=7.001000,OutVal=(X=0.700000,Y=0.000000,Z=0.000000)),(InVal=7.099000,OutVal=(X=0.700000,Y=0.000000,Z=1.000000)),(InVal=7.100000,OutVal=(X=0.700000,Y=0.100000,Z=0.000000)),(InVal=7.199000,OutVal=(X=0.700000,Y=0.100000,Z=1.000000)),(InVal=7.200000,OutVal=(X=0.700000,Y=0.200000,Z=0.000000)),(InVal=7.299000,OutVal=(X=0.700000,Y=0.200000,Z=1.000000)),(InVal=7.300000,OutVal=(X=0.700000,Y=0.300000,Z=0.000000)),(InVal=7.399000,OutVal=(X=0.700000,Y=0.300000,Z=1.000000)),(InVal=7.400000,OutVal=(X=0.700000,Y=0.400000,Z=0.000000)),(InVal=7.499000,OutVal=(X=0.700000,Y=0.400000,Z=1.000000)),(InVal=7.500000,OutVal=(X=0.700000,Y=0.500000,Z=0.000000)),(InVal=7.599000,OutVal=(X=0.700000,Y=0.500000,Z=1.000000)),(InVal=7.600000,OutVal=(X=0.700000,Y=0.600000,Z=0.000000)),(InVal=7.699000,OutVal=(X=0.700000,Y=0.600000,Z=1.000000)),(InVal=7.700000,OutVal=(X=0.700000,Y=0.700000,Z=0.000000)),(InVal=7.799000,OutVal=(X=0.700000,Y=0.700000,Z=1.000000)),(InVal=7.800000,OutVal=(X=0.700000,Y=0.800000,Z=0.000000)),(InVal=7.899000,OutVal=(X=0.700000,Y=0.800000,Z=1.000000)),(InVal=7.900000,OutVal=(X=0.700000,Y=0.900000,Z=0.000000)),(InVal=7.999000,OutVal=(X=0.700000,Y=0.900000,Z=1.000000)),(InVal=8.000000,OutVal=(X=0.700000,Y=1.000000,Z=0.000000)),(InVal=8.001000,OutVal=(X=0.800000,Y=0.000000,Z=0.000000)),(InVal=8.099000,OutVal=(X=0.800000,Y=0.000000,Z=1.000000)),(InVal=8.100000,OutVal=(X=0.800000,Y=0.100000,Z=0.000000)),(InVal=8.199000,OutVal=(X=0.800000,Y=0.100000,Z=1.000000)),(InVal=8.200000,OutVal=(X=0.800000,Y=0.200000,Z=0.000000)),(InVal=8.299000,OutVal=(X=0.800000,Y=0.200000,Z=1.000000)),(InVal=8.300000,OutVal=(X=0.800000,Y=0.300000,Z=0.000000)),(InVal=8.399000,OutVal=(X=0.800000,Y=0.300000,Z=1.000000)),(InVal=8.400000,OutVal=(X=0.800000,Y=0.400000,Z=0.000000)),(InVal=8.499000,OutVal=(X=0.800000,Y=0.400000,Z=1.000000)),(InVal=8.500000,OutVal=(X=0.800000,Y=0.500000,Z=0.000000)),(InVal=8.598690,OutVal=(X=0.800000,Y=0.500000,Z=1.000000)),(InVal=8.600000,OutVal=(X=0.800000,Y=0.600000,Z=0.000000)),(InVal=8.699000,OutVal=(X=0.800000,Y=0.600000,Z=1.000000)),(InVal=8.700000,OutVal=(X=0.800000,Y=0.700000,Z=0.000000)),(InVal=8.799000,OutVal=(X=0.800000,Y=0.700000,Z=1.000000)),(InVal=8.800000,OutVal=(X=0.800000,Y=0.800000,Z=0.000000)),(InVal=8.899000,OutVal=(X=0.800000,Y=0.800000,Z=1.000000)),(InVal=8.900000,OutVal=(X=0.800000,Y=0.900000,Z=0.000000)),(InVal=8.999000,OutVal=(X=0.800000,Y=0.900000,Z=1.000000)),(InVal=9.000000,OutVal=(X=0.800000,Y=1.000000,Z=0.000000)),(InVal=9.001000,OutVal=(X=0.900000,Y=0.000000,Z=0.000000)),(InVal=9.099000,OutVal=(X=0.900000,Y=0.000000,Z=1.000000)),(InVal=9.100000,OutVal=(X=0.900000,Y=0.100000,Z=0.000000)),(InVal=9.199000,OutVal=(X=0.900000,Y=0.100000,Z=1.000000)),(InVal=9.200000,OutVal=(X=0.900000,Y=0.200000,Z=0.000000)),(InVal=9.299000,OutVal=(X=0.900000,Y=0.200000,Z=1.000000)),(InVal=9.300000,OutVal=(X=0.900000,Y=0.300000,Z=0.000000)),(InVal=9.399000,OutVal=(X=0.900000,Y=0.300000,Z=1.000000)),(InVal=9.400000,OutVal=(X=0.900000,Y=0.400000,Z=0.000000)),(InVal=9.499000,OutVal=(X=0.900000,Y=0.400000,Z=1.000000)),(InVal=9.500000,OutVal=(X=0.900000,Y=0.500000,Z=0.000000)),(InVal=9.599000,OutVal=(X=0.900000,Y=0.500000,Z=1.000000)),(InVal=9.600000,OutVal=(X=0.900000,Y=0.600000,Z=0.000000)),(InVal=9.699000,OutVal=(X=0.900000,Y=0.600000,Z=1.000000)),(InVal=9.700000,OutVal=(X=0.900000,Y=0.700000,Z=0.000000)),(InVal=9.799000,OutVal=(X=0.900000,Y=0.700000,Z=1.000000)),(InVal=9.800000,OutVal=(X=0.900000,Y=0.800000,Z=0.000000)),(InVal=9.899000,OutVal=(X=0.900000,Y=0.800000,Z=1.000000)),(InVal=9.900000,OutVal=(X=0.900000,Y=0.900000,Z=0.000000)),(InVal=9.999000,OutVal=(X=0.900000,Y=0.900000,Z=1.000000)),(InVal=10.000000,OutVal=(X=0.900000,Y=1.000000,Z=0.000000)),(InVal=10.001000,OutVal=(X=1.000000,Y=0.000000,Z=0.000000)),(InVal=10.099000,OutVal=(X=1.000000,Y=0.000000,Z=1.000000)),(InVal=10.100000,OutVal=(X=1.000000,Y=0.100000,Z=0.000000)),(InVal=10.199000,OutVal=(X=1.000000,Y=0.100000,Z=1.000000)),(InVal=10.200000,OutVal=(X=1.000000,Y=0.200000,Z=0.000000)),(InVal=10.299000,OutVal=(X=1.000000,Y=0.200000,Z=1.000000)),(InVal=10.300000,OutVal=(X=1.000000,Y=0.300000,Z=0.000000)),(InVal=10.399000,OutVal=(X=1.000000,Y=0.300000,Z=1.000000)),(InVal=10.400000,OutVal=(X=1.000000,Y=0.400000,Z=0.000000)),(InVal=10.499000,OutVal=(X=1.000000,Y=0.400000,Z=1.000000)),(InVal=10.500000,OutVal=(X=1.000000,Y=0.500000,Z=0.000000)),(InVal=10.599000,OutVal=(X=1.000000,Y=0.500000,Z=1.000000)),(InVal=10.600000,OutVal=(X=1.000000,Y=0.600000,Z=0.000000)),(InVal=10.699000,OutVal=(X=1.000000,Y=0.600000,Z=1.000000)),(InVal=10.700000,OutVal=(X=1.000000,Y=0.700000,Z=0.000000)),(InVal=10.799000,OutVal=(X=1.000000,Y=0.700000,Z=1.000000)),(InVal=10.800000,OutVal=(X=1.000000,Y=0.800000,Z=0.000000)),(InVal=10.899000,OutVal=(X=1.000000,Y=0.800000,Z=1.000000)),(InVal=10.900000,OutVal=(X=1.000000,Y=0.900000,Z=0.000000)),(InVal=10.999000,OutVal=(X=1.000000,Y=0.900000,Z=1.000000)),(InVal=11.000000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000)),(InVal=11.001000,OutVal=(X=1.000000,Y=1.000000,Z=0.000000))))
+         Name="InterpTrackVectorMaterialParam_0"
+         ObjectArchetype=InterpTrackVectorMaterialParam'Engine.Default__InterpTrackVectorMaterialParam'
+      End Object
+      InterpTracks(0)=InterpTrackVectorMaterialParam'InterpTrackVectorMaterialParam_0'
+      GroupName="NewGroup"
+      GroupColor=(B=216,G=99,R=0,A=255)
+      Name="InterpGroup_0"
+      ObjectArchetype=InterpGroup'Engine.Default__InterpGroup'
+   End Object
+   InterpLength=11.001000
+   InterpGroups(0)=InterpGroup'InterpGroup_0'
+   CurveEdSetup=InterpCurveEdSetup'InterpCurveEdSetup_0'
+   SelectedFilter=InterpFilter'Engine.Default__InterpData:FilterAll'
+   EdSectionEnd=11.001000
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2024
+   ObjPosY=-8848
+   DrawWidth=32
+   DrawHeight=32
+   Name="InterpData_6"
+   ObjectArchetype=InterpData'Engine.Default__InterpData'
+End Object
+Begin Object Class=SeqVar_Float Name=SeqVar_Float_5
+   VarName="GhostColor"
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2016
+   ObjPosY=-9248
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Float_5"
+   ObjectArchetype=SeqVar_Float'Engine.Default__SeqVar_Float'
+End Object
+Begin Object Class=SeqAct_Delay Name=SeqAct_Delay_6
+   Duration=0.050000
+   InputLinks(0)=(DrawY=-9083,OverrideDelta=14)
+   InputLinks(1)=(DrawY=-9062,OverrideDelta=35)
+   InputLinks(2)=(DrawY=-9041,OverrideDelta=56)
+   OutputLinks(0)=(Links=((LinkedOp=SeqCond_CompareFloat'SeqCond_CompareFloat_1')),DrawY=-9062,OverrideDelta=35)
+   OutputLinks(1)=(DrawY=-9182,bHidden=True,OverrideDelta=51)
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-1656
+   ObjPosY=-9120
+   DrawWidth=106
+   DrawHeight=93
+   Name="SeqAct_Delay_6"
+   ObjectArchetype=SeqAct_Delay'Engine.Default__SeqAct_Delay'
+End Object
+Begin Object Class=SeqVar_Named Name=SeqVar_Named_14
+   ExpectedType=Class'Engine.SeqVar_Float'
+   FindVarName="GhostColor"
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-1928
+   ObjPosY=-8880
+   ObjColor=(B=255,G=0,R=0,A=255)
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Named_14"
+   ObjectArchetype=SeqVar_Named'Engine.Default__SeqVar_Named'
+End Object
+Begin Object Class=SeqAct_Delay Name=SeqAct_Delay_1
+   Duration=0.050000
+   InputLinks(0)=(DrawY=-9171,OverrideDelta=14)
+   InputLinks(1)=(DrawY=-9150,OverrideDelta=35)
+   InputLinks(2)=(DrawY=-9129,OverrideDelta=56)
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_0'),(LinkedOp=SeqAct_SetFloat'SeqAct_SetFloat_0')),DrawY=-9150,OverrideDelta=35)
+   OutputLinks(1)=(DrawY=-9198,bHidden=True,OverrideDelta=51)
+   VariableLinks(0)=(DrawX=-2188,OverrideDelta=25)
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2240
+   ObjPosY=-9208
+   DrawWidth=106
+   DrawHeight=109
+   Name="SeqAct_Delay_1"
+   ObjectArchetype=SeqAct_Delay'Engine.Default__SeqAct_Delay'
+End Object
+Begin Object Class=SeqEvent_LevelLoaded Name=SeqEvent_LevelLoaded_0
+   MaxWidth=136
+   OutputLinks(0)=(Links=((LinkedOp=SeqCond_CompareFloat'SeqCond_CompareFloat_1')),DrawY=-9062,OverrideDelta=11)
+   OutputLinks(1)=(DrawY=-9110,bHidden=True,OverrideDelta=35)
+   OutputLinks(2)=(DrawY=-9112,bHidden=True,OverrideDelta=33)
+   ObjInstanceVersion=3
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2704
+   ObjPosY=-9128
+   DrawWidth=137
+   Name="SeqEvent_LevelLoaded_0"
+   ObjectArchetype=SeqEvent_LevelLoaded'Engine.Default__SeqEvent_LevelLoaded'
+End Object
+Begin Object Class=SeqAct_SetFloat Name=SeqAct_SetFloat_0
+   InputLinks(0)=(DrawY=-9150,OverrideDelta=11)
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_Delay'SeqAct_Delay_6')),DrawY=-9150,OverrideDelta=11)
+   VariableLinks(0)=(LinkedVariables=(SeqVar_Named'SeqVar_Named_14'),DrawX=-1806,OverrideDelta=16)
+   VariableLinks(1)=(LinkedVariables=(SeqVar_Float'SeqVar_Float_2'),DrawX=-1750,OverrideDelta=68)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-1840
+   ObjPosY=-9184
+   DrawWidth=128
+   DrawHeight=61
+   Name="SeqAct_SetFloat_0"
+   ObjectArchetype=SeqAct_SetFloat'Engine.Default__SeqAct_SetFloat'
+End Object
+Begin Object Class=SeqVar_Float Name=SeqVar_Float_2
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-1936
+   ObjPosY=-8752
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Float_2"
+   ObjectArchetype=SeqVar_Float'Engine.Default__SeqVar_Float'
+End Object
+Begin Object Class=SeqCond_CompareFloat Name=SeqCond_CompareFloat_1
+   InputLinks(0)=(DrawY=-9062,OverrideDelta=35)
+   OutputLinks(0)=(DrawY=-9162,bHidden=True,OverrideDelta=15)
+   OutputLinks(1)=(Links=((LinkedOp=SeqAct_Delay'SeqAct_Delay_1'),(LinkedOp=SeqAct_Interp'SeqAct_Interp_0',InputLinkIdx=2)),DrawY=-9083,OverrideDelta=14)
+   OutputLinks(2)=(Links=((LinkedOp=SeqAct_Delay'SeqAct_Delay_6')),DrawY=-9062,OverrideDelta=35)
+   OutputLinks(3)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_0',InputLinkIdx=2),(LinkedOp=SeqAct_Delay'SeqAct_Delay_1')),DrawY=-9041,OverrideDelta=56)
+   OutputLinks(4)=(DrawY=-9097,bHidden=True,OverrideDelta=80)
+   VariableLinks(0)=(LinkedVariables=(SeqVar_Named'SeqVar_Named_14'),DrawX=-2424,OverrideDelta=36)
+   VariableLinks(1)=(LinkedVariables=(SeqVar_Float'SeqVar_Float_2'),DrawX=-2399,OverrideDelta=61)
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Main_Sequence'
+   ObjPosX=-2464
+   ObjPosY=-9120
+   DrawWidth=105
+   DrawHeight=109
+   Name="SeqCond_CompareFloat_1"
+   ObjectArchetype=SeqCond_CompareFloat'Engine.Default__SeqCond_CompareFloat'
+End Object
