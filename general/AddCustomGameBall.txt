@@ -297,7 +297,7 @@ Begin Object Class=SeqVar_Object Name=SeqVar_Object_6
 End Object
 Begin Object Class=SeqAct_ConvertToString Name=SeqAct_ConvertToString_1
    bIncludeVarComment=False
-   VarSeparator=
+   VarSeparator=""
    NumberOfInputs=3
    InputLinks(0)=(DrawY=-8422,OverrideDelta=11)
    OutputLinks(0)=(Links=((LinkedOp=SeqAct_AddGameBall_TA'SeqAct_AddGameBall_TA_1',InputLinkIdx=2)),DrawY=-8422,OverrideDelta=11)
